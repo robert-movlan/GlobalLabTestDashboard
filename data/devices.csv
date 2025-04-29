@@ -1,0 +1,21 @@
+device_id,device_name,device_type,manufacturer
+D500,Device_0,Centrifuge,MedTech
+D501,Device_1,Microscope,MicroDevices
+D502,Device_2,Centrifuge,MedTech
+D503,Device_3,Microscope,MicroDevices
+D504,Device_4,PCR Machine,MedTech
+D505,Device_5,Analyzer,HealthCorp
+D506,Device_6,Centrifuge,HealthCorp
+D507,Device_7,Microscope,BioLab
+D508,Device_8,PCR Machine,MedTech
+D509,Device_9,PCR Machine,MedTech
+D510,Device_10,Centrifuge,BioLab
+D511,Device_11,Centrifuge,HealthCorp
+D512,Device_12,PCR Machine,MedTech
+D513,Device_13,Analyzer,BioLab
+D514,Device_14,Analyzer,MedTech
+D515,Device_15,Microscope,MicroDevices
+D516,Device_16,Analyzer,HealthCorp
+D517,Device_17,PCR Machine,MicroDevices
+D518,Device_18,PCR Machine,HealthCorp
+D519,Device_19,PCR Machine,BioLab
