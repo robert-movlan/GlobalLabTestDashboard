@@ -76,7 +76,7 @@ GlobalLabTestDashboard/
 
 **Movlan Aliyev**  
 📍 Boston, MA  
-📧 aliyevmovbi@gmail.com  
+📧 robert.movlan@outlook.com
 🔗 [LinkedIn](https://www.linkedin.com/in/movlan-aliyev/) | [Portfolio](#)
 
 ---
