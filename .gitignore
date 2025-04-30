@@ -1,0 +1,30 @@
+
+# Node modules (for React project)
+web-dashboard/node_modules/
+
+# Build output
+web-dashboard/build/
+
+# Environment files
+*.env
+.env.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite DB (optional, if used for local only)
+*.db
+
+# Power BI autosave/temp files
+*.pbix~
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
