@@ -15,6 +15,7 @@ Tracks lab test performance, SLA breaches, and hospital risk levels with real-ti
 | Data Storage  | Azure SQL Database                   |
 | Data Pipeline | Azure Data Factory + Synapse + DBX   |
 | Language      | SQL, Python, JavaScript              |
+| Hosting       | Firebase (Live Deployment)           |
 
 ---
 
@@ -30,6 +31,12 @@ Tracks lab test performance, SLA breaches, and hospital risk levels with real-ti
 
 ### 🔎 Smart Insights
 ![Hospital Overview](images/dashboard-hospital-overview.png)
+
+---
+
+## 🔗 Live Hosted Dashboard
+
+👉 [View Live Dashboard](https://global-lab-test-dashboard.web.app)
 
 ---
 
@@ -76,7 +83,7 @@ GlobalLabTestDashboard/
 
 **Movlan Aliyev**  
 📍 Boston, MA  
-📧 robert.movlan@outlook.com
+📧 robert.movlan@outlook.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/movlan-aliyev/) | [Portfolio](#)
 
 ---
