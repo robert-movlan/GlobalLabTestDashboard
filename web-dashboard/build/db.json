@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "hospital_name": "Boston General",
+    "test_type": "COVID-19",
+    "collection_time": "2024-04-25T09:30:00Z",
+    "sla_breach": true
+  },
+  {
+    "id": 2,
+    "hospital_name": "Boston General",
+    "test_type": "Blood Test",
+    "collection_time": "2024-04-28T13:45:00Z",
+    "sla_breach": false
+  },
+  {
+    "id": 3,
+    "hospital_name": "Cambridge Health",
+    "test_type": "X-Ray",
+    "collection_time": "2024-04-29T10:15:00Z",
+    "sla_breach": true
+  },
+  {
+    "id": 4,
+    "hospital_name": "Cambridge Health",
+    "test_type": "Urine Test",
+    "collection_time": "2024-04-22T11:00:00Z",
+    "sla_breach": false
+  },
+  {
+    "id": 5,
+    "hospital_name": "Boston General",
+    "test_type": "MRI",
+    "collection_time": "2024-04-26T14:20:00Z",
+    "sla_breach": false
+  },
+  {
+    "id": 6,
+    "hospital_name": "New Hope Medical Center",
+    "test_type": "COVID-19 PCR",
+    "collection_time": "2024-07-24T02:09:51",
+    "sla_breach": false
+  },
+  {
+    "id": 7,
+    "hospital_name": "Green Valley Hospital",
+    "test_type": "Urine Analysis",
+    "collection_time": "2024-06-16T02:09:51",
+    "sla_breach": false
+  },
+  {
+    "id": 8,
+    "hospital_name": "Pacific Health",
+    "test_type": "CT Scan",
+    "collection_time": "2024-12-12T02:09:51",
+    "sla_breach": true
+  },
+  {
+    "id": 9,
+    "hospital_name": "Green Valley Hospital",
+    "test_type": "X-Ray",
+    "collection_time": "2025-01-25T02:09:51",
+    "sla_breach": false
+  },
+  {
+    "id": 10,
+    "hospital_name": "Pacific Health",
+    "test_type": "COVID-19 PCR",
+    "collection_time": "2025-03-05T02:09:51",
+    "sla_breach": true
+  }
+]
