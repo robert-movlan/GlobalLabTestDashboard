@@ -76,9 +76,59 @@ This advanced dashboard module analyzes predicted shipment delays using:
 ↓
 [ ADF → Synapse Analytics → Power BI ]
 
-yaml
+markdown
 Copy
 Edit
+
+---
+
+## ☁️ Azure Data Integration Extension
+
+This project was extended to demonstrate **cloud-based data pipeline skills using Azure**, including:
+
+### 💽 Azure SQL Database (GlobalLabDB)
+- `Employees` table with fields like `FullName`, `HireDate`, `Salary`
+- `Transactions` table with foreign key to `Employees`, and fields like `TransactionDate`, `Amount`, `Description`
+- Tables created using SQL scripts via **Azure Data Studio**
+
+### 🔄 Azure Data Factory (ADF)
+- ✅ Ingested two CSVs (Employees, Transactions) stored in **Azure Blob Storage**
+- 🛠️ Created pipelines to transform and load data into Azure SQL DB
+- 💡 Error-handling and primary key enforcement tested via multiple iterations
+- 📁 Blob container path: `input-data/transactions1.csv`
+
+### 📊 Power BI Connected to Azure SQL
+- Live connection to Azure SQL Database
+- New **Power BI page** shows:
+  - Line chart of `Transaction Amounts` by `Transaction Date`
+  - Employee-to-Transaction mapping
+  - Cloud-symbol watermark indicating Azure integration
+
+### 🔗 Azure SQL Transactions Demo Page
+> 📈 Interactive line chart of transaction amounts by date  
+![Azure SQL Power BI Page](images/azure-sql-transactions-page.png)
+
+### 📁 Visual Evidence (Azure Tools)
+- 🧾 Azure Data Factory: Pipeline success  
+  ![ADF Success](images/azure_adf_success.png)
+
+- 💻 Azure Data Studio: SQL script executed  
+  ![SQL Execution](images/azure_sql_execution.png)
+
+---
+
+
+## ☁️ Cloud Integration Assets
+
+All code and pipeline templates used in the Azure pipeline process are included here:
+
+📁 `cloud-integration/`
+- `adf_pipeline.json` – Azure Data Factory export pipeline (JSON)
+- `databricks_notebook.py` – Sample Databricks notebook (paused for now)
+- `employees.csv`, `transactions.csv` – Sample data used in Azure uploads
+- `synapse_query.sql` – Azure Synapse SQL query example
+
+These files represent end-to-end integration from storage to database to analytics.
 
 ---
 
@@ -98,7 +148,10 @@ GlobalLabTestDashboard/
 │ │ ├── components/
 │ │ │ └── ShipmentDelayHeatmap.jsx
 │ │ └── App.js
-├── images/ → Power BI & React screenshots
+├── images/ → Power BI & Azure screenshots
+│ ├── azure_adf_success.png
+│ ├── azure_sql_execution.png
+│ └── azure-sql-transactions-page.png
 ├── db.json → Mock API data source
 ├── README.md → 📖 This file
 

@@ -1,0 +1,11 @@
+TransactionID,EmployeeID,TransactionDate,Amount,TransactionType
+101,1,2024-01-15,2500,Bonus
+102,2,2024-02-01,6300,Salary
+103,3,2024-02-01,7200,Salary
+104,4,2024-02-01,6900,Salary
+105,5,2024-02-01,5600,Salary
+106,1,2024-03-15,3000,Project Bonus
+107,6,2024-02-01,6100,Salary
+108,2,2024-03-15,-200,Penalty
+109,4,2024-04-01,6900,Salary
+110,3,2024-04-01,7200,Salary
