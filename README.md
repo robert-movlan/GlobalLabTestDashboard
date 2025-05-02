@@ -1,7 +1,7 @@
 # 🌐 Global Lab Test Dashboard
 
 End-to-end healthcare analytics platform using **Power BI, React, SQL, Azure, and APIs**.  
-Tracks lab test performance, SLA breaches, and hospital risk levels with real-time insights.
+Tracks lab test performance, SLA breaches, shipment risk levels, and hospital KPIs with real-time insights.
 
 ---
 
@@ -23,14 +23,30 @@ Tracks lab test performance, SLA breaches, and hospital risk levels with real-ti
 
 > 📊 KPI Cards • Line Chart • Pie Chart • Matrix Heatmap • Risk Scores • Dynamic Filters
 
-### 🔍 Introduction Preview
+### 🔍 Introduction Preview  
 ![Introduction](images/dashboard-introduction.png)
 
-### 🧩 Test-Volume-Analysis
+### 🧩 Test-Volume-Analysis  
 ![Interactive charts and Date](images/dashboard-test-volume-analysis.png)
 
-### 🔎 Smart Insights
+### 🔎 Smart Insights  
 ![Hospital Overview](images/dashboard-hospital-overview.png)
+
+---
+
+## 🚚 Shipment Delay Risk Dashboard (React + JSON)
+
+This advanced dashboard module analyzes predicted shipment delays using:
+
+- 📦 `shipment_transformed.json` – processed data with `predicted_delay_risk`, `actual_delivery`, `expected_delivery`, and more.
+- 🎯 **Color-coded risk bars**: green (low), orange (medium), red (high)
+- 🧠 Tooltip insights showing carrier, region, delay status, and delivery dates
+- 🔁 Fully interactive and embedded into the main dashboard layout
+
+> Implemented as a React component using Chart.js.
+
+### 📸 Shipment Dashboard Preview  
+![Shipment Delay Risk](images/shipment-delay-risk-chart.png)
 
 ---
 
@@ -45,37 +61,50 @@ Tracks lab test performance, SLA breaches, and hospital risk levels with real-ti
 - Interactive filtering by hospital, test type, and date
 - SLA breach trend analysis (Line & Bar charts)
 - Smart KPI cards with risk classification 🔥
+- Shipment delay risk prediction via color-coded bar charts
 - Power BI integration with custom DAX
 - End-to-end Azure data pipeline simulation
-- Professional GitHub structure & docs
+- Professional GitHub structure & documentation
 
 ---
 
 ## 🧠 Architecture
 
-```
-[ React UI ] → [ Axios API ] → [ JSON Server ]  
-                     ↓  
-        [ Azure SQL Database ]  
-                     ↓  
+[ React UI ] → [ Axios API ] → [ JSON Server ]
+↓
+[ Azure SQL Database ]
+↓
 [ ADF → Synapse Analytics → Power BI ]
-```
+
+yaml
+Copy
+Edit
 
 ---
 
 ## 📂 Folder Structure
 
-```
 GlobalLabTestDashboard/
-├── data/                 → Raw CSV data
-├── sql/                  → Complex queries with CTEs
-├── python/               → Data preprocessing script
-├── powerbi/              → PBIX dashboard file
-├── web-dashboard/        → Full React frontend
-├── images/               → Power BI screenshot
-├── db.json               → API source for frontend
-├── README.md             → 📖 This file
-```
+├── data/ → Raw shipment & lab data (CSV, JSON)
+├── sql/ → Complex queries with CTEs
+├── python/ → Shipment preprocessing & analysis
+├── powerbi/ → PBIX dashboard file
+├── web-dashboard/ → Full React frontend
+│ ├── public/
+│ │ ├── data/
+│ │ │ ├── shipment_delay.json
+│ │ │ └── shipment_transformed.json
+│ ├── src/
+│ │ ├── components/
+│ │ │ └── ShipmentDelayHeatmap.jsx
+│ │ └── App.js
+├── images/ → Power BI & React screenshots
+├── db.json → Mock API data source
+├── README.md → 📖 This file
+
+yaml
+Copy
+Edit
 
 ---
 

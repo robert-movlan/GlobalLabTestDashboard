@@ -1,0 +1,51 @@
+shipment_id,origin,destination,priority_level,result_outcome,turnaround_hours,test_timestamp
+SHP0001,Los Angeles,San Francisco,Critical,Positive,6.07,2025-05-01 11:43:06.887724
+SHP0002,Houston,San Francisco,High,Inconclusive,19.4,2025-04-18 21:43:06.887762
+SHP0003,Chicago,San Francisco,Low,Inconclusive,18.9,2025-04-20 23:43:06.887771
+SHP0004,Houston,Atlanta,Critical,Positive,50.59,2025-04-04 09:43:06.887777
+SHP0005,Houston,Denver,Critical,Inconclusive,51.72,2025-04-12 16:43:06.887783
+SHP0006,Boston,Miami,Medium,Inconclusive,11.94,2025-04-30 00:43:06.887789
+SHP0007,Chicago,San Francisco,Low,Positive,71.84,2025-04-24 21:43:06.887794
+SHP0008,Chicago,Seattle,Critical,Positive,20.31,2025-05-01 04:43:06.887804
+SHP0009,Chicago,San Francisco,High,Inconclusive,70.35,2025-04-21 20:43:06.887814
+SHP0010,Houston,Seattle,High,Inconclusive,30.48,2025-04-27 10:43:06.887824
+SHP0011,Los Angeles,Seattle,Medium,Inconclusive,3.83,2025-04-04 02:43:06.887830
+SHP0012,Chicago,San Francisco,Critical,Negative,25.83,2025-04-22 21:43:06.887836
+SHP0013,Houston,Atlanta,Low,Negative,46.22,2025-04-26 02:43:06.887841
+SHP0014,Boston,Seattle,High,Negative,49.49,2025-04-14 17:43:06.887846
+SHP0015,Los Angeles,Seattle,Critical,Positive,38.93,2025-04-25 05:43:06.887852
+SHP0016,Boston,San Francisco,Critical,Negative,33.07,2025-04-29 07:43:06.887857
+SHP0017,Los Angeles,Seattle,Medium,Positive,40.48,2025-04-26 13:43:06.887862
+SHP0018,Houston,Seattle,High,Positive,43.29,2025-04-03 12:43:06.887868
+SHP0019,New York,San Francisco,High,Negative,7.2,2025-04-05 09:43:06.887873
+SHP0020,Los Angeles,San Francisco,Low,Negative,27.56,2025-04-07 02:43:06.887878
+SHP0021,Boston,Miami,High,Negative,18.57,2025-04-05 12:43:06.887883
+SHP0022,Houston,Atlanta,Low,Inconclusive,58.12,2025-04-14 01:43:06.887889
+SHP0023,Los Angeles,Atlanta,High,Negative,34.66,2025-04-13 23:43:06.887894
+SHP0024,New York,Seattle,Medium,Inconclusive,70.83,2025-04-27 05:43:06.887899
+SHP0025,New York,Atlanta,High,Positive,29.62,2025-04-20 23:43:06.887904
+SHP0026,Chicago,Seattle,Low,Inconclusive,59.06,2025-04-22 02:43:06.887909
+SHP0027,Chicago,Miami,Low,Negative,57.78,2025-04-26 21:43:06.887915
+SHP0028,Boston,San Francisco,Medium,Positive,12.13,2025-04-10 07:43:06.887920
+SHP0029,Los Angeles,San Francisco,High,Positive,37.33,2025-04-11 20:43:06.887925
+SHP0030,Los Angeles,San Francisco,High,Positive,50.55,2025-04-27 10:43:06.887930
+SHP0031,Chicago,Atlanta,Medium,Inconclusive,62.01,2025-04-25 04:43:06.887935
+SHP0032,Los Angeles,Miami,High,Negative,24.48,2025-04-17 11:43:06.887940
+SHP0033,Los Angeles,Atlanta,High,Positive,17.03,2025-04-02 03:43:06.887945
+SHP0034,New York,Atlanta,Low,Positive,51.64,2025-04-24 18:43:06.887951
+SHP0035,Chicago,Miami,High,Positive,58.57,2025-04-03 04:43:06.887956
+SHP0036,Houston,Miami,High,Inconclusive,26.08,2025-04-24 20:43:06.887962
+SHP0037,Chicago,Miami,Medium,Inconclusive,8.28,2025-04-07 09:43:06.887967
+SHP0038,Houston,Miami,Medium,Negative,67.81,2025-04-14 23:43:06.887972
+SHP0039,New York,San Francisco,Critical,Inconclusive,29.53,2025-04-20 00:43:06.887977
+SHP0040,Boston,Denver,Low,Positive,38.0,2025-04-10 13:43:06.887982
+SHP0041,Los Angeles,Denver,High,Negative,60.56,2025-04-15 05:43:06.887987
+SHP0042,New York,Miami,High,Positive,49.14,2025-04-25 22:43:06.887993
+SHP0043,Los Angeles,Denver,Critical,Positive,53.33,2025-04-23 10:43:06.887998
+SHP0044,Boston,Denver,High,Inconclusive,16.24,2025-04-14 20:43:06.888003
+SHP0045,Boston,Miami,Low,Negative,39.67,2025-04-04 21:43:06.888008
+SHP0046,New York,Denver,Critical,Inconclusive,50.55,2025-04-30 04:43:06.888013
+SHP0047,Boston,Atlanta,Low,Inconclusive,17.61,2025-04-02 21:43:06.888028
+SHP0048,Houston,Seattle,Critical,Negative,13.83,2025-04-12 09:43:06.888034
+SHP0049,Boston,Seattle,Critical,Positive,70.74,2025-04-11 23:43:06.888039
+SHP0050,Los Angeles,Miami,Medium,Positive,37.92,2025-04-15 22:43:06.888044

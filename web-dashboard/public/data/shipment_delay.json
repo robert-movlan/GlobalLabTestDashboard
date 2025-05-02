@@ -1,0 +1,33 @@
+[
+    {
+      "shipment_id": "SHP001",
+      "region": "North America",
+      "carrier": "FedEx",
+      "product": "LabKit-X",
+      "predicted_delay_risk": 0.85,
+      "actual_delay": true,
+      "expected_delivery": "2025-04-28",
+      "actual_delivery": "2025-05-01"
+    },
+    {
+      "shipment_id": "SHP002",
+      "region": "Europe",
+      "carrier": "DHL",
+      "product": "LabKit-Z",
+      "predicted_delay_risk": 0.15,
+      "actual_delay": false,
+      "expected_delivery": "2025-04-29",
+      "actual_delivery": "2025-04-29"
+    },
+    {
+      "shipment_id": "SHP003",
+      "region": "Asia",
+      "carrier": "UPS",
+      "product": "BioBox-Q",
+      "predicted_delay_risk": 0.60,
+      "actual_delay": false,
+      "expected_delivery": "2025-04-25",
+      "actual_delivery": "2025-04-26"
+    }
+  ]
+  
