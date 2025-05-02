@@ -1,0 +1,47 @@
+{
+    "name": "Import_Transactions_Pipeline",
+    "properties": {
+      "description": "Pipeline to import transactions from Blob Storage CSV to Azure SQL DB",
+      "activities": [
+        {
+          "name": "Copy data1",
+          "type": "Copy",
+          "dependsOn": [],
+          "policy": {
+            "timeout": "7.00:00:00",
+            "retry": 0,
+            "retryIntervalInSeconds": 30,
+            "secureOutput": false,
+            "secureInput": false
+          },
+          "userProperties": [],
+          "typeProperties": {
+            "source": {
+              "type": "DelimitedTextSource",
+              "storeSettings": {
+                "type": "AzureBlobStorageReadSettings"
+              }
+            },
+            "sink": {
+              "type": "SqlSink"
+            },
+            "enableStaging": false
+          },
+          "inputs": [
+            {
+              "referenceName": "Transactions_CSV_Import",
+              "type": "DatasetReference"
+            }
+          ],
+          "outputs": [
+            {
+              "referenceName": "AzureSqlTable1",
+              "type": "DatasetReference"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+  }
+  
