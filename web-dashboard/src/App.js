@@ -1,9 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Line, Pie, Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, ArcElement } from 'chart.js';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+  ArcElement
+} from 'chart.js';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import ShipmentDelayHeatmap from "./components/ShipmentDelayHeatmap";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, ArcElement);
 
@@ -16,7 +28,7 @@ function App() {
   const [chartType, setChartType] = useState('line');
 
   useEffect(() => {
-    axios.get('http://localhost:3002/labtests')
+    axios.get('/db.json')
       .then(response => setLabTests(response.data))
       .catch(error => console.error('Error fetching lab test data:', error));
   }, []);
@@ -272,7 +284,7 @@ function App() {
       </div>
 
       {/* Data Table */}
-      <div className="table-responsive">
+      <div className="table-responsive mb-5">
         <h4 className="text-center mb-3">Detailed Lab Test Data</h4>
         <table className="table table-striped table-hover">
           <thead className="table-dark">
@@ -309,6 +321,12 @@ function App() {
             })}
           </tbody>
         </table>
+      </div>
+
+      {/* 🚚 Shipment Delay Risk Chart */}
+      <div className="mb-5">
+        <h4 className="text-center mb-4">🚚 Shipment Delay Risk Visualization</h4>
+        <ShipmentDelayHeatmap />
       </div>
     </div>
   );
