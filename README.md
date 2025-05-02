@@ -117,6 +117,16 @@ Edit
 
 ---
 
+## 🚀 Deployment
+
+The app is deployed via Firebase Hosting:  
+👉 [https://global-lab-test-dashboard.web.app](https://global-lab-test-dashboard.web.app)
+
+To redeploy the latest version, see the full guide:  
+📄 [HOW_TO_DEPLOY.md](HOW_TO_DEPLOY.md)
+
+---
+
 ## 🌍 License
 
 MIT — use this project freely for learning or inspiration.
