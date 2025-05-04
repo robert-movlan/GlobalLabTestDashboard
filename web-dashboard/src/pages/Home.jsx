@@ -7,30 +7,22 @@ export default function Home() {
       </p>
 
       <div className="text-center mt-4">
-        <h5>👨‍💻 Developed by:</h5>
-        <p>Senior Business Intelligence Developer (Technical Owner)</p>
-        <p>📞 857-400-4171</p>
-        <p>📧 maliyev@werfen.com</p>
-        <p>📧 robert.movlan@outlook.com</p>
-
-        <div className="mt-3">
-          <a
-            href="https://www.linkedin.com/in/movlan-aliyev/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary me-2"
-          >
-            🔗 LinkedIn Profile
-          </a>
-          <a
-            href="https://github.com/robert-movlan"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-dark"
-          >
-            💻 GitHub Portfolio
-          </a>
-        </div>
+        <a
+          href="https://www.linkedin.com/in/movlan-aliyev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary me-2"
+        >
+          🔗 LinkedIn Profile
+        </a>
+        <a
+          href="https://github.com/robert-movlan"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-dark"
+        >
+          💻 GitHub Portfolio
+        </a>
       </div>
     </div>
   );
